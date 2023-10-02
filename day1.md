@@ -16,7 +16,7 @@ Linux is an operating system, just like Windows or macOS. It's the software that
 
 1. **Cybersecurity Fundamentals**: Discover the core concepts of cybersecurity, including threats, vulnerabilities, and risk management. Learn how to identify and mitigate potential risks to protect your digital assets effectively.
    - Resources:
-   - [Introduction to Cybersecurity by cisco](https://www.netacad.com/courses/cybersecurity/introduction-cybersecurity
+   - [Introduction to Cybersecurity by cisco](https://www.netacad.com/courses/cybersecurity/introduction-cybersecurity)
    - [Introduction to Cybersecurity by Cybertalents](https://cybertalents.com/learn/introduction-to-cybersecurity)
 
 2. **Command Line Mastery**: Master the command line interface, a powerful tool for system administration, automation, and troubleshooting. We'll cover essential commands and techniques that will boost your productivity.
