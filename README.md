@@ -43,6 +43,7 @@ Hacking is a crucial skill in today's digital world. Whether you want to become 
    - Resources: [How to Install Kali Linux virtual machine on Windows](https://www.youtube.com/watch?v=l0JgWilK6ok)
    - : [How to Install Kali Linux virtual machine on Ubuntu](https://www.youtube.com/watch?v=mlQXRxCz180)
    - : [How to Install Kali Linux on your Android phone](https://www.youtube.com/watch?v=xeGQVQyUIoM)
+   - : [Kali Linux on wsl for windows](https://www.youtube.com/watch?v=AfVH54edAHU)
 
 ### Day 1: 
  [Intro to cybersecurity, Basic command line and Linux Essentials](day1.md)
