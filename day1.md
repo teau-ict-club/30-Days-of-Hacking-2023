@@ -15,17 +15,20 @@ Linux is an operating system, just like Windows or macOS. It's the software that
 ## Mini-topics
 
 1. **Cybersecurity Fundamentals**: Discover the core concepts of cybersecurity, including threats, vulnerabilities, and risk management. Learn how to identify and mitigate potential risks to protect your digital assets effectively.
-   Resources: [Introduction to Cybersecurity by cisco](https://www.netacad.com/courses/cybersecurity/introduction-cybersecurity)
-   : [Introduction to Cybersecurity by Cybertalents](https://cybertalents.com/learn/introduction-to-cybersecurity)
+   - Resources:
+   - [Introduction to Cybersecurity by cisco](https://www.netacad.com/courses/cybersecurity/introduction-cybersecurity
+   - [Introduction to Cybersecurity by Cybertalents](https://cybertalents.com/learn/introduction-to-cybersecurity)
 
 2. **Command Line Mastery**: Master the command line interface, a powerful tool for system administration, automation, and troubleshooting. We'll cover essential commands and techniques that will boost your productivity.
-   Resources: [Commandline for beginners](https://www.freecodecamp.org/news/command-line-for-beginners/)
-   :[Commandline cheat sheet](https://www.hostinger.com/tutorials/linux-commands)
+   - Resources:
+   - [Commandline for beginners](https://www.freecodecamp.org/news/command-line-for-beginners/)
+   - [Commandline cheat sheet](https://www.hostinger.com/tutorials/linux-commands)
 
 3. **Linux Essentials**: Dive into the world of Linux, one of the most prevalent operating systems in cybersecurity. You'll gain practical experience with Linux commands, file systems, and system administration tasks.
-   Resources: [Linux Essentials 1](https://tryhackme.com/room/linuxfundamentalspart1)
-   [Linux Essentials 2](https://tryhackme.com/room/linuxfundamentalspart2)
-   [Linux Essentials 3](https://tryhackme.com/room/linuxfundamentalspart3)
+   - Resources:
+   - [Linux Essentials 1](https://tryhackme.com/room/linuxfundamentalspart1)
+   - [Linux Essentials 2](https://tryhackme.com/room/linuxfundamentalspart2)
+   - [Linux Essentials 3](https://tryhackme.com/room/linuxfundamentalspart3)
 
 ## Challenge to solve
 **Level 1**:: Attempt to solve [Bandits wargame](https://overthewire.org/wargames/bandit/) Level 1 - Level 5
