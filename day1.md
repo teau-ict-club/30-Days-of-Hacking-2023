@@ -31,10 +31,10 @@ Linux is an operating system, just like Windows or macOS. It's the software that
    - [Linux Essentials 3](https://tryhackme.com/room/linuxfundamentalspart3)
 
 ## Challenge to solve
-**Level 1**:: Attempt to solve [Bandits wargame](https://overthewire.org/wargames/bandit/) Level 1 - Level 5
-**Level 2** Attempt to solve [Bandits wargame](https://overthewire.org/wargames/bandit/) Level 1 - Level 10
-**Level 3** Attempt to complete [cmdChallenge](https://cmdchallenge.com/)
-**Level 4** Attempt to complete [oopsChallenge](https://oops.cmdchallenge.com/) and the [Leviathan wargame](https://overthewire.org/wargames/leviathan/)
+- **Level 1**:: Attempt to solve [Bandits wargame](https://overthewire.org/wargames/bandit/) Level 1 - Level 5
+- **Level 2** Attempt to solve [Bandits wargame](https://overthewire.org/wargames/bandit/) Level 1 - Level 10
+- **Level 3** Attempt to complete [cmdChallenge](https://cmdchallenge.com/)
+- **Level 4** Attempt to complete [oopsChallenge](https://oops.cmdchallenge.com/) and the [Leviathan wargame](https://overthewire.org/wargames/leviathan/)
 
 ## Instructor
 Twitter handle : @kat_goretti
