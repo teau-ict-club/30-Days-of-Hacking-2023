@@ -40,4 +40,7 @@ Linux is an operating system, just like Windows or macOS. It's the software that
 Twitter handle : @kat_goretti
 
 ## Solutions
-TBD
+**Level 1** [Bandits Walkthrough]()
+**Level 2** [Bandits Walkthrough]()
+**Level 3** [cmdChallenge Walkthrough](cmdchallenge_walkthrough.txt)
+**Level 4** [oopschallenge Walkthrough](oopschallenge_walkthrough.txt), [Leviathan walkthrough](leviathan_walkthrough.txt)
