@@ -1,0 +1,5 @@
+1. echo $PWD
+2. echo *
+3. while IFS= read -r f; do printf "%s\n" "$f"; done < my-dissertation.txt
+4. echo $(</proc/42/cmdline)
+5. kill 42

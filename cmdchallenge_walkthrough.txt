@@ -1,0 +1,24 @@
+1. echo "hello world"
+2. pwd
+3. ls
+4. cat access.log
+5. tail -5 access.log
+6. touch take-the-command-challenge
+7. mkdir -p tmp/files
+8. cp take-the-command-challenge tmp/files
+9. mv take-the-command-challenge tmp/files
+10. ln -s tmp/files/take-the-command-challenge take-the-command-challenge
+11. rm -rf * .*
+12. rm **/*.doc
+13. grep GET access.log
+14. grep -l 500 *
+15. ls access.log*
+16. grep -r -h "500"
+17. grep -ro ^[0-9.]* .
+18. ls -l | wc -l
+19. sort access.log
+20. grep 'GET' access.log | wc -l
+21. cat split-me.txt| tr ';' '\n'
+22. seq 1 100 | tr "\n" " "
+23. sed -i 'challenge are difficult/d' **/*.txt
+

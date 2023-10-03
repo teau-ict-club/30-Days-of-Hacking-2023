@@ -1,0 +1,71 @@
+level 0 -> level 1
+-------
+Login using: ssh leviathan0@leviathan.labs.overthewire.org -p 2223
+
+Look around using "ls -la" you'll notice a .backup file that belongs to leviathan1 but you have the permissions to read, 
+"cd .backup"
+Try to find a password in the file 
+"cat backup.html | grep passwd"
+
+Password found:: PPIfmI1qsA
+
+Level 1 -> Level 2
+--------
+
+login using: ssh leviathan1@leviathan.labs.overthewire.org -p 2223
+Look around: "ls -la"
+test out 'check': "./check"
+use ltrace to see what library calls are made during execution: "ltrace ./check" 
+You'll find the password in the strcmp: pass== sex
+ run the binary again and use the right password."./check"
+"cat /etc/leviathan_pass/leviathan2" to get the next password
+
+Password Found:: mEh5PNl10e
+
+Level 2 -> Level 3
+---------
+
+Login using: ssh leviathan2@leviathan.labs.overthewire.org -p 2223
+"ls -la"
+"ltrace ./printfile" to see how it works
+You'll notice that the program reads a file after checking the file name.
+The program however does not completely read the file name if it has spaces. We can take advantage of this by making 2 files
+one named: "/tmp/flag"
+second named: "/tmp/flag me.txt"
+We'll then link the first to the file we wanna read:"ln -s /etc/leviathan_pass/leviathan3 /tmp/flag"
+After this, we'll run the program "./printfile /tmp/"flag me.txt"
+
+Password Found: Q0G8j4sakn
+
+Level 3 -> Level 4 
+--------
+login using: ssh leviathan3@leviathan.labs.overthewire.org -p 2223
+
+Use the same tactic used on level 2
+
+Password Found: AgvropI4OA
+
+Level4 -> Level 5 
+---------
+login using: ssh leviathan4@leviathan.labs.overthewire.org -p 2223
+
+Take the given binary and change it to ascii using a tool of your choosing or use a script
+Password Found: EKKlTF1Xqs
+
+Level 5 -> Level 6
+---------
+login using: ssh leviathan5@leviathan.labs.overthewire.org -p 2223
+
+Link the /tmp/file.log with the file you want to read:"ln -s /etc/leviathan_pass/leviathan6 /tmp/file.log" the run the executable file
+Password Found: YZ55XPVk2l
+
+Level 6 -> Level 7
+----------
+login using: ssh leviathan6@leviathan.labs.overthewire.org -p 2223
+
+There are several ways to solve this one, I used a script to bruteforce the 4 digit code
+Scrpt used:"for i in {0000..9999}; do ./leviathan6 $i; done"
+Password Found:8GpZ5f8Hze 
+
+
+!!!!!!!!!!!!!THE END !!!!!!!!!!!!!!!!!
